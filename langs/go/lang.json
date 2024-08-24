@@ -9,7 +9,7 @@
     },
     "compiler_urls": ["http://golang.org/dl/"],
     "description": "Go is a statically typed, compiled programming language designed at Google.",
-    "template_author": "FartMicStink",
+    "template_author": "KingVentrix007",
     "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/go",
     "lang_license": {
         "type": "MIT",
