@@ -3,31 +3,33 @@
     "system_support": ["windows", "linux"],
     "build_type": ["makefile", "bash"],
     "lib_support": false,
-    "file_template_path": "templates/go",
-    "version_template_path": "templates/go/version.go",
+    "version_template_path": "NULL",
     "build_file_path": {
-        "local": "build/go/Makefile",
-        "url": "http://example.com/make.sh"
+        "path": "lang/go/makefile"
     },
     "compiler_urls": ["http://golang.org/dl/"],
     "description": "Go is a statically typed, compiled programming language designed at Google.",
     "template_author": "FartMicStink",
-    "git_repo": "https://github.com/fartmicstink/go-template",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/go",
     "lang_license": {
         "type": "MIT",
-        "url": "https://opensource.org/licenses/MIT"
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/MIT"
     },
     "default_main_file": "main.go",
     "extensions": [".go"],
     "dependencies": ["go.mod"],
     "instructions": "Use `go build` to compile your Go project.",
     "template_version": "1.0.0",
-    "update_url": "http://example.com/go-template-update.json",
+    "update_url": "N/A",
     "folders_to_create": [
         "cmd/${project_name}",
         "pkg"
     ],
     "commands_to_run": [
         "go mod init ${project_name}"
-    ]
+    ],
+    "main_file_path": "cmd/${project_name}/main.go",
+    "main_file_template": "templates/go/main.go",
+    "comment": "//"
+    
 }
