@@ -1,0 +1,9 @@
+{
+    "langs":
+    {
+        "go":
+        {
+            "path":"/langs/go/lang.json"
+        }
+    }
+}
