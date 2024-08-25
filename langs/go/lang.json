@@ -4,9 +4,7 @@
     "build_type": ["makefile", "bash"],
     "lib_support": false,
     "version_template_path": "NULL",
-    "build_file_path": {
-        "path": "lang/go/makefile"
-    },
+    "build_file_path":"lang/go/makefile",
     "compiler_urls": ["http://golang.org/dl/"],
     "description": "Go is a statically typed, compiled programming language designed at Google.",
     "template_author": "KingVentrix007",
