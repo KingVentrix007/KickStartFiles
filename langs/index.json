@@ -3,7 +3,7 @@
     {
         "go":
         {
-            "path":"/fake/lang.json"
+            "path":"/go/lang.json"
         }
     }
 }
