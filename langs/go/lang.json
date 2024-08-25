@@ -27,7 +27,7 @@
         "go mod init ${project_name}"
     ],
     "main_file_path": "cmd/${project_name}/main.go",
-    "main_file_template": "templates/go/main.go",
+    "main_file_template": "/go/main.go",
     "comment": "//"
     
 }
