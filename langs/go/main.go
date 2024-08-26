@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello from CodeStarter")
+    fmt.Println("Hello from KickStart")
 }
