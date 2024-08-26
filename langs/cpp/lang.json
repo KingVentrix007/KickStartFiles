@@ -1,0 +1,40 @@
+{
+    "name": "cpp",
+    "system_support": ["windows", "linux"],
+    "build_type": ["makefile", "bash"],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path":"cpp/makefile",
+    "compiler_urls": ["https://gcc.gnu.org/", "https://clang.llvm.org/"],
+    "description": "C++ project template with Makefile support for building and running.",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/cpp",
+    "lang_license": {
+        "type": "MIT",
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/MIT"
+    },
+    "default_main_file": "main.cpp",
+    "extensions": [".cpp"],
+    "dependencies": [""],
+    "instructions": "Use `make` to compile your make project.",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "folders_to_create": [
+        "src",
+        "include",
+        "tests",
+        "build",
+        "docs",
+        "examples",
+        "scripts",
+        "libs",
+        "data"
+    ],
+    "commands_to_run": [
+        ""
+    ],
+    "main_file_path": "src/main.cpp",
+    "main_file_template": "cpp/main.cpp",
+    "comment": "//"
+    
+}

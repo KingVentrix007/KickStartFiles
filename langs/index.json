@@ -4,6 +4,10 @@
         "go":
         {
             "path":"/go/lang.json"
+        },
+        "cpp":
+        {
+            "path":"/cpp/lang.json"
         }
     }
 }
