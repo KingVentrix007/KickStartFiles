@@ -4,7 +4,11 @@
     "build_type": ["makefile", "bash"],
     "lib_support": false,
     "version_template_path": "NULL",
-    "build_file_path":"cpp/makefile",
+    "build_file_path":
+    {
+        "makefile":"cpp/makefile",
+        "bash":"cpp/build.sh"
+    },
     "compiler_urls": ["https://gcc.gnu.org/", "https://clang.llvm.org/"],
     "description": "C++ project template with Makefile support for building and running.",
     "template_author": "KingVentrix007",
@@ -19,6 +23,7 @@
     "instructions": "Use `make` to compile your make project.",
     "template_version": "1.0.0",
     "update_url": "N/A",
+    "git_ignore_path":"cpp/.gitignore",
     "folders_to_create": [
         "src",
         "include",
