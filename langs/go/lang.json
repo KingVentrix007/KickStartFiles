@@ -4,7 +4,7 @@
     "build_type": ["makefile", "bash"],
     "lib_support": false,
     "version_template_path": "NULL",
-    "build_file_path":"go/makefile",
+    "build_file_path":{"makefile":"go/makefile","bash":"go/build.sh"},
     "compiler_urls": ["http://golang.org/dl/"],
     "description": "Go is a statically typed, compiled programming language designed at Google.",
     "template_author": "KingVentrix007",
@@ -18,6 +18,7 @@
     "dependencies": ["go.mod"],
     "instructions": "Use `go build` to compile your Go project.",
     "template_version": "1.0.0",
+    "git_ignore_path":"go/.gitignore",
     "update_url": "N/A",
     "folders_to_create": [
         "cmd/${project_name}",
