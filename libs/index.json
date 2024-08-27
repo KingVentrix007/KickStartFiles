@@ -1,5 +1,6 @@
 {
     "buffer": {
+        "lang":"c",
         "version": "1.0.0",
         "description": "Tiny C string manipulation library",
         "author": "KingVentrix007",
