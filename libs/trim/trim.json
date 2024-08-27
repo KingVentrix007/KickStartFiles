@@ -1,0 +1,23 @@
+{
+    "name": "trim",
+    "git_url": "https://github.com/vendethiel/trim.c.git",
+    "raw_path": "https://raw.githubusercontent.com/vendethiel/trim.c/master/",
+    "src_paths": [
+        "trim.c"
+    ],
+    "header_paths": [
+        "trim.h"
+    ],
+    "has_headers": true,
+    "is_prebuilt": false,
+    "description": "Trims a string in-place.",
+    "author": "vendethiel, NovaRemitly",
+    "license": "MIT",
+    "keywords": [
+        "string",
+        "trimming",
+        "in-place",
+        "trim"
+    ],
+    "added_by": "KingVentrix007"
+}

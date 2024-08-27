@@ -6,5 +6,20 @@
         "author": "KingVentrix007",
         "keywords": ["buf", "buffer", "string", "str", "util", "utils"],
         "path": "buffer/buffer.json"
-    }
+    },
+    "trim": {
+            "lang":"c",
+            "version": "1.0.0",
+            "description": "Trims a string in-place.",
+            "author": "KingVentrix007",
+            "keywords": [
+                "string",
+                "trimming",
+                "in-place",
+                "trim"
+            ],
+            "path": "trim/trim.json"
+        }
+    
+    
 }

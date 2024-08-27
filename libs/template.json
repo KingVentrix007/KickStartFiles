@@ -1,0 +1,24 @@
+{
+    "name": "{library_name}",
+    "git_url": "{repository_url}",
+    "raw_path": "{raw_content_url}",
+    "src_paths": [
+        "{source_file1}",
+        "{source_file2}"
+    ],
+    "header_paths": [
+        "{header_file1}",
+        "{header_file2}"
+    ],
+    "has_headers": {true_or_false},
+    "is_prebuilt": {true_or_false},
+    "description": "{short_description}",
+    "author": "{author_name}",
+    "license": "{license_type}",
+    "keywords": [
+        "{keyword1}",
+        "{keyword2}",
+        "{keyword3}"
+    ],
+    "added_by": "{your_name}"
+}
