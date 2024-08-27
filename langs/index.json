@@ -8,6 +8,10 @@
         "cpp":
         {
             "path":"/cpp/lang.json"
+        },
+        "c":
+        {
+            "path":"/c/lang.json"
         }
     }
 }

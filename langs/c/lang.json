@@ -1,0 +1,50 @@
+{
+    "name": "c",
+    "system_support": [
+        "linux"
+    ],
+    "build_type": [
+        "make",
+        "bash"
+    ],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path": {
+        "make": "c/makefile",
+        "bash": "c/bash"
+    },
+    "compiler_urls": [],
+    "description": "The c programming languge",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/",
+    "lang_license": {
+        "type": "MIT",
+        "url": "MIT"
+    },
+    "default_main_file": "main.c",
+    "extensions": [
+        ".c"
+    ],
+    "dependencies": [],
+    "instructions": "idk",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "git_ignore_path": "cpp/.gitignore",
+    "folders_to_create": [
+        "src",
+        "include",
+        "build",
+        "tests",
+        "docs",
+        "examples",
+        "scripts",
+        "data",
+        "libs"
+    ],
+    "commands_to_run": [
+        "echo done"
+    ],
+    "main_file_path": "src/main.c",
+    "main_file_template": "cpp/main.cpp",
+    "comment": "//"
+}
