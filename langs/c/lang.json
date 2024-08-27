@@ -1,5 +1,6 @@
 {
     "name": "c",
+    "version":2,
     "system_support": [
         "linux"
     ],
@@ -41,6 +42,7 @@
         "data",
         "libs"
     ],
+    "files_to_include":[""],
     "commands_to_run": [
         "echo done"
     ],
