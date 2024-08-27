@@ -45,6 +45,6 @@
         "echo done"
     ],
     "main_file_path": "src/main.c",
-    "main_file_template": "cpp/main.cpp",
+    "main_file_template": "c/main.c",
     "comment": "//"
 }
