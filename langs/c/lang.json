@@ -4,14 +4,14 @@
         "linux"
     ],
     "build_type": [
-        "make",
+        "makefile",
         "bash"
     ],
     "lib_support": false,
     "version_template_path": "NULL",
     "build_file_path": {
-        "make": "c/makefile",
-        "bash": "c/bash"
+        "makefile": "c/makefile",
+        "bash": "c/build.sh"
     },
     "compiler_urls": [],
     "description": "The c programming languge",
@@ -29,7 +29,7 @@
     "instructions": "idk",
     "template_version": "1.0.0",
     "update_url": "N/A",
-    "git_ignore_path": "cpp/.gitignore",
+    "git_ignore_path": "c/.gitignore",
     "folders_to_create": [
         "src",
         "include",
