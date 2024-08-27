@@ -1,7 +1,7 @@
 {
     "name": "buffer",
     "git_url": "https://github.com/clibs/buffer.git",
-    "raw_path":"https://github.com/clibs/buffer",
+    "raw_path":"https://raw.githubusercontent.com/clibs/buffer/master/",
     "src_paths": [
         "buffer.c"
     ],
