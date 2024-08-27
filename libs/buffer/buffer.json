@@ -1,0 +1,18 @@
+{
+    "name": "buffer",
+    "git_url": "https://github.com/clibs/buffer.git",
+    "raw_path":"https://github.com/clibs/buffer",
+    "src_paths": [
+        "buffer.c"
+    ],
+    "header_paths": [
+        "buffer.h"
+    ],
+    "has_headers": true,
+    "is_prebuilt": false,
+    "description": "Tiny C string manipulation library.",
+    "author": "clibs contributors",
+    "license": "MIT",
+    "keywords": ["buf", "buffer", "string", "str", "util", "utils"],
+    "added_by": "KingVentrix007"
+}

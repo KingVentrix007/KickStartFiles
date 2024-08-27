@@ -1,0 +1,9 @@
+{
+    "buffer": {
+        "version": "1.0.0",
+        "description": "Tiny C string manipulation library",
+        "author": "KingVentrix007",
+        "keywords": ["buf", "buffer", "string", "str", "util", "utils"],
+        "path": "buffer/buffer.json"
+    }
+}
