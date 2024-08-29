@@ -12,6 +12,10 @@
         "c":
         {
             "path":"/c/lang.json"
+        },
+        "py":
+        {
+            "path":"/py/lang.json"
         }
     }
 }

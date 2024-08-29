@@ -1,0 +1,54 @@
+{
+    "name": "c",
+    "version":2,
+    "special_build":true,
+    "system_support": [
+        "linux"
+    ],
+    "build_type": [
+        "none",
+        "none"
+    ],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path": {
+        "makefile": "none",
+        "bash": "none"
+    },
+    "compiler_urls": [],
+    "description": "The python programming languge",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/",
+    "lang_license": {
+        "type": "MIT",
+        "url": "MIT"
+    },
+    "default_main_file": "main.py",
+    "extensions": [
+        ".py"
+    ],
+    "dependencies": [],
+    "instructions": "idk",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "git_ignore_path": "py/.gitignore",
+    "folders_to_create": [
+       "tests",
+       "src",
+       "src/${project_name}",
+       "docs"
+    ],
+    "files_to_include":[
+        "setup.py",
+        "requirements.txt",
+        "pyproject.toml",
+        "MANIFEST.in",
+        ""
+    ],
+    "commands_to_run": [
+        "echo done"
+    ],
+    "main_file_path": "src/${project_name}/main.py",
+    "main_file_template": "py/main.py",
+    "comment": "#"
+}
