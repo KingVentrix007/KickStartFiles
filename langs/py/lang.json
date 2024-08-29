@@ -15,7 +15,7 @@
         "makefile": "none",
         "bash": "none"
     },
-    "compiler_urls": [],
+    "compiler_urls": ["https://www.python.org/downloads/"],
     "description": "The python programming languge",
     "template_author": "KingVentrix007",
     "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/",
@@ -50,5 +50,6 @@
     ],
     "main_file_path": "src/${project_name}/main.py",
     "main_file_template": "py/main.py",
-    "comment": "#"
+    "comment": "#",
+    "compiler_cmd":"python -version"
 }

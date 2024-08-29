@@ -29,6 +29,8 @@
     ],
     "main_file_path": "cmd/${project_name}/main.go",
     "main_file_template": "go/main.go",
-    "comment": "//"
+    "comment": "//",
+    "compiler_cmd":"go version_template_path"
+
     
 }

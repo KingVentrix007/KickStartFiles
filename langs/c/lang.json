@@ -14,7 +14,7 @@
         "makefile": "c/makefile",
         "bash": "c/build.sh"
     },
-    "compiler_urls": [],
+    "compiler_urls": ["sudo apt-get install gcc"],
     "description": "The c programming languge",
     "template_author": "KingVentrix007",
     "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/",
@@ -48,5 +48,7 @@
     ],
     "main_file_path": "src/main.c",
     "main_file_template": "c/main.c",
-    "comment": "//"
+    "comment": "//",
+    "compiler_cmd":"gcc -v"
+
 }

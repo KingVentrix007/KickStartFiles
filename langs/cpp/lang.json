@@ -40,6 +40,8 @@
     ],
     "main_file_path": "src/main.cpp",
     "main_file_template": "cpp/main.cpp",
-    "comment": "//"
+    "comment": "//",
+    "compiler_cmd":"g++ -v"
+
     
 }
