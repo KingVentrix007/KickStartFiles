@@ -1,5 +1,7 @@
 # Include the configuration file
-include config.mk
+PROJECT_NAME := ${project_name}
+
+
 
 # Directories
 CMD_DIR=cmd/$(PROJECT_NAME)

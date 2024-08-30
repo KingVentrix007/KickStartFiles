@@ -2,7 +2,10 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror -std=c11
 CONFIG_FILE = ./config.cfg
 
-include $(CONFIG_FILE)
+SRC_DIR=./src
+BUILD_DIR=./build
+INCLUDE_DIR=./include
+LIBS_DIR=./libs
 
 # Find all .c files in the source directory
 SRC_FILES = $(shell find $(SRC_DIR) -name '*.c')

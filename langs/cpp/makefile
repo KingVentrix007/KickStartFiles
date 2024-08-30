@@ -1,5 +1,12 @@
 # Include the configuration file with path definitions
-include config.mk
+# Paths
+SRC_PATH = src
+INCLUDE_PATH = include
+BUILD_PATH = build
+TESTS_PATH = tests
+
+# Output file
+OUTPUT_FILE = ${project_name}
 
 # Compiler and flags
 CXX = g++
