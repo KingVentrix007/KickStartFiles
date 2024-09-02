@@ -51,5 +51,7 @@
     "main_file_path": "src/${project_name}/main.py",
     "main_file_template": "py/main.py",
     "comment": "#",
-    "compiler_cmd":"python -version"
+    "compiler_cmd":"python -version",
+    "package_install":"pip install"
+
 }

@@ -4,10 +4,6 @@
     "system_support": [
         "linux"
     ],
-    "build_type": [
-        "makefile",
-        "bash"
-    ],
     "lib_support": false,
     "version_template_path": "NULL",
     "build_file_path": {
@@ -49,6 +45,7 @@
     "main_file_path": "src/main.c",
     "main_file_template": "c/main.c",
     "comment": "//",
-    "compiler_cmd":"gcc -v"
+    "compiler_cmd":"gcc -v",
+    "package_install":"none"
 
 }
