@@ -38,7 +38,7 @@
         "data",
         "libs"
     ],
-    "files_to_include":[""],
+    "files_to_include":["config.mk"],
     "commands_to_run": [
         "echo done"
     ],
