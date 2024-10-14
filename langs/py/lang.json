@@ -1,13 +1,10 @@
 {
-    "name": "c",
-    "version":2,
-    "special_build":true,
+    "name": "python",
+    "version": 3,
+    "special_build": true,
     "system_support": [
-        "linux"
-    ],
-    "build_type": [
-        "none",
-        "none"
+        "linux",
+        "windows"
     ],
     "lib_support": false,
     "version_template_path": "NULL",
@@ -15,35 +12,36 @@
         "makefile": "none",
         "bash": "none"
     },
-    "compiler_urls": ["https://www.python.org/downloads/"],
-    "description": "The python programming languge",
+    "compiler_urls": [
+        "https://www.python.org/downloads/"
+    ],
+    "description": "The Python programming language.",
     "template_author": "KingVentrix007",
-    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/python",
     "lang_license": {
         "type": "MIT",
-        "url": "MIT"
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/MIT"
     },
     "default_main_file": "main.py",
     "extensions": [
         ".py"
     ],
     "dependencies": [],
-    "instructions": "idk",
+    "instructions": "Use `python <file>.py` to run your Python scripts.",
     "template_version": "1.0.0",
     "update_url": "N/A",
     "git_ignore_path": "py/.gitignore",
     "folders_to_create": [
-       "tests",
-       "src",
-       "src/${project_name}",
-       "docs"
+        "tests",
+        "src",
+        "src/${project_name}",
+        "docs"
     ],
-    "files_to_include":[
+    "files_to_include": [
         "setup.py",
         "requirements.txt",
         "pyproject.toml",
-        "MANIFEST.in",
-        ""
+        "MANIFEST.in"
     ],
     "commands_to_run": [
         "echo done"
@@ -51,7 +49,6 @@
     "main_file_path": "src/${project_name}/main.py",
     "main_file_template": "py/main.py",
     "comment": "#",
-    "compiler_cmd":"python -version",
-    "package_install":"pip install"
-
+    "compiler_cmd": "python --version",
+    "package_install": "pip install"
 }

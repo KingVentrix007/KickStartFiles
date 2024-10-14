@@ -1,11 +1,24 @@
 {
     "name": "go",
+    "version": 3,
     "system_support": ["windows", "linux"],
-    "build_type": ["makefile", "bash"],
     "lib_support": false,
     "version_template_path": "NULL",
-    "build_file_path":{"makefile":"go/makefile","bash":"go/build.sh"},
-    "compiler_urls": ["http://golang.org/dl/"],
+    "build_file_path": {
+        "makefile": {
+            "path": "go/makefile",
+            "build": "make build",
+            "run": "make run"
+        },
+        "bash": {
+            "path": "go/build.sh",
+            "build": "./build.sh build",
+            "run": "./build.sh run"
+        }
+    },
+    "compiler_urls": [
+        "http://golang.org/dl/"
+    ],
     "description": "Go is a statically typed, compiled programming language designed at Google.",
     "template_author": "KingVentrix007",
     "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/go",
@@ -18,21 +31,25 @@
     "dependencies": ["go.mod"],
     "instructions": "Use `go build` to compile your Go project.",
     "template_version": "1.0.0",
-    "git_ignore_path":"go/.gitignore",
     "update_url": "N/A",
+    "git_ignore_path": "go/.gitignore",
     "folders_to_create": [
         "cmd/${project_name}",
-        "pkg"
+        "pkg",
+        "build",
+        "tests",
+        "docs",
+        "scripts",
+        "examples"
     ],
+    "files_to_include": [],
     "commands_to_run": [
-        "go mod init ${project_name}"
+        "go mod init ${project_name}",
+        "echo done"
     ],
     "main_file_path": "cmd/${project_name}/main.go",
     "main_file_template": "go/main.go",
     "comment": "//",
-    "compiler_cmd":"go version_template_path",
-    "package_install":"go get"
-
-
-    
+    "compiler_cmd": "go version",
+    "package_install": "go get"
 }

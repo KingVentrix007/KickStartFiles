@@ -1,15 +1,25 @@
 {
     "name": "cpp",
+    "version": 3,
     "system_support": ["windows", "linux"],
-    "build_type": ["makefile", "bash"],
     "lib_support": false,
     "version_template_path": "NULL",
-    "build_file_path":
-    {
-        "makefile":"cpp/makefile",
-        "bash":"cpp/build.sh"
+    "build_file_path": {
+        "makefile": {
+            "path": "cpp/makefile",
+            "build": "make build",
+            "run": "make run"
+        },
+        "bash": {
+            "path": "cpp/build.sh",
+            "build": "./build.sh build",
+            "run": "./build.sh run"
+        }
     },
-    "compiler_urls": ["https://gcc.gnu.org/", "https://clang.llvm.org/"],
+    "compiler_urls": [
+        "https://gcc.gnu.org/",
+        "https://clang.llvm.org/"
+    ],
     "description": "C++ project template with Makefile support for building and running.",
     "template_author": "KingVentrix007",
     "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/cpp",
@@ -19,31 +29,29 @@
     },
     "default_main_file": "main.cpp",
     "extensions": [".cpp"],
-    "dependencies": [""],
-    "instructions": "Use `make` to compile your make project.",
+    "dependencies": [],
+    "instructions": "Use `make` to compile your project.",
     "template_version": "1.0.0",
     "update_url": "N/A",
-    "git_ignore_path":"cpp/.gitignore",
+    "git_ignore_path": "cpp/.gitignore",
     "folders_to_create": [
         "src",
         "include",
-        "tests",
         "build",
+        "tests",
         "docs",
         "examples",
         "scripts",
-        "libs",
-        "data"
+        "data",
+        "libs"
     ],
+    "files_to_include": ["config.mk"],
     "commands_to_run": [
-        ""
+        "echo done"
     ],
     "main_file_path": "src/main.cpp",
     "main_file_template": "cpp/main.cpp",
     "comment": "//",
-    "compiler_cmd":"g++ -v",
-    "package_install":"none"
-
-
-    
+    "compiler_cmd": "g++ -v",
+    "package_install": "none"
 }
