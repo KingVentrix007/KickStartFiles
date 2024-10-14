@@ -1,14 +1,24 @@
 {
     "name": "c",
-    "version":2,
+    "version":3,
     "system_support": [
         "linux"
     ],
     "lib_support": false,
     "version_template_path": "NULL",
     "build_file_path": {
-        "makefile": "c/makefile",
-        "bash": "c/build.sh"
+        "makefile":
+        {
+            "path":"c/makefile",
+            "build":"make build",
+            "run":"make run"
+        },
+        "bash":
+        {
+            "path":"c/build.sh",
+            "build":"./build.sh build",
+            "run":"./build.sh run"
+        }
     },
     "compiler_urls": ["sudo apt-get install gcc"],
     "description": "The c programming languge",
