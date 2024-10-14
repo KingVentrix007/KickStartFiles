@@ -1,0 +1,54 @@
+{
+    "name": "rust",
+    "version": 3,
+    "system_support": [
+        "linux",
+        "windows"
+    ],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path": {
+        "cargo": {
+            "path": "rust/Cargo.toml",
+            "build": "cargo build",
+            "run": "cargo run"
+        }
+    },
+    "compiler_urls": [
+        "https://www.rust-lang.org/tools/install"
+    ],
+    "description": "Rust is a systems programming language focused on safety, speed, and concurrency.",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/rust",
+    "lang_license": {
+        "type": "MIT",
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/MIT"
+    },
+    "default_main_file": "main.rs",
+    "extensions": [
+        ".rs"
+    ],
+    "dependencies": [],
+    "instructions": "Use `cargo build` to compile and `cargo run` to execute the project.",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "git_ignore_path": "rust/.gitignore",
+    "folders_to_create": [
+        "src",
+        "tests",
+        "examples",
+        "docs"
+    ],
+    "files_to_include": [
+        "Cargo.toml"
+    ],
+    "commands_to_run": [
+        "cargo init",
+        "echo done"
+    ],
+    "main_file_path": "src/main.rs",
+    "main_file_template": "rust/main.rs",
+    "comment": "//",
+    "compiler_cmd": "rustc --version",
+    "package_install": "cargo install"
+}
