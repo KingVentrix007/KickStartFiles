@@ -20,6 +20,10 @@
         "rust":
         {
             "path":"/rust/lang.json"
+        },
+        "kotlin":
+        {
+            "path":"/kotlin/lang.json"    
         }
     }
 }
