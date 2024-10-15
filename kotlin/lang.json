@@ -1,0 +1,54 @@
+{
+    "name": "kotlin",
+    "version": 4,
+    "system_support": [
+        "linux",
+        "windows",
+        "macOS"
+    ],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path": {
+        "gradle": {
+            "path": "kotlin/build.gradle.kts",
+            "build": "gradle build",
+            "run": "gradle run",
+            "create_file": false
+        }
+    },
+    "compiler_urls": [
+        "https://kotlinlang.org/docs/command-line.html"
+    ],
+    "description": "Kotlin is a modern programming language that makes developers happier with concise code and enhanced performance.",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/kotlin",
+    "lang_license": {
+        "type": "Apache-2.0",
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/Apache-2.0"
+    },
+    "default_main_file": "Main.kt",
+    "extensions": [
+        ".kt"
+    ],
+    "dependencies": [],
+    "instructions": "Use `gradle build` to compile and `gradle run` to execute the project.",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "git_ignore_path": "kotlin/.gitignore",
+    "folders_to_create": [
+        "src/main/kotlin",
+        "src/test/kotlin",
+        "build",
+        "libs"
+    ],
+    "files_to_include": [],
+    "commands_to_run": [
+        "gradle init --type kotlin-application",
+        "echo done"
+    ],
+    "main_file_path": "src/main/kotlin/Main.kt",
+    "main_file_template": "kotlin/Main.kt",
+    "comment": "//",
+    "compiler_cmd": "kotlinc -version",
+    "package_install": "gradle build"
+}
