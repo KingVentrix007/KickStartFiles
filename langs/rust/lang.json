@@ -1,6 +1,6 @@
 {
     "name": "rust",
-    "version": 3,
+    "version": 4,
     "system_support": [
         "linux",
         "windows"
