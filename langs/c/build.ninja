@@ -1,0 +1,39 @@
+# Configuration
+cflags = -Wall -Wextra -std=c11
+cc = gcc
+
+# Variables
+src_dir = src
+build_dir = build
+libs_dir = libs
+target = $build_dir/main
+
+# Rules
+rule compile
+    command = $cc $cflags -I$src_dir -I$libs_dir -c $in -o $out
+    description = Compiling $in
+
+rule link
+    command = $cc $cflags -o $out $in
+    description = Linking $out
+
+rule run
+    command = ./$target
+    description = Running $target
+
+# Build objects from source files
+build $build_dir/main.o: compile $src_dir/main.c
+build $build_dir/other.o: compile $src_dir/other.c
+
+# Link objects into the final executable
+build $target: link $build_dir/main.o $build_dir/other.o
+
+# Rule to run the compiled code
+build run: run | $target
+
+# Phony target for cleaning
+rule clean
+    command = rm -rf $build_dir
+    description = Cleaning up
+
+build clean: phony

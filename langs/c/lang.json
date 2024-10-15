@@ -18,6 +18,24 @@
             "path":"c/build.sh",
             "build":"./build.sh build",
             "run":"./build.sh run"
+        },
+        "python":
+        {
+            "path":"c/build.py",
+            "build":"python build.py build",
+            "run":"python build.py run"
+        },
+        "ninja":
+        {
+            "path":"c/build.ninja",
+            "build":"ninja build",
+            "run":"ninja run"
+        },
+        "cmake":
+        {
+            "path":"c/CMakeLists.txt",
+            "build":"echo Cmake is complex, please read a tutorial, or as ChatGPT",
+            "run":"echo Cmake is complex, please read a tutorial, or as ChatGPT"
         }
     },
     "compiler_urls": ["sudo apt-get install gcc"],
