@@ -9,7 +9,7 @@
     "version_template_path": "NULL",
     "build_file_path": {
         "cargo": {
-            "path": "rust/FOOOOOOD.toml",
+            "path": "rust/Cargo.toml",
             "build": "cargo build",
             "run": "cargo run",
             "create_file":false
