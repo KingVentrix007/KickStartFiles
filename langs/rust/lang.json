@@ -39,9 +39,7 @@
         "examples",
         "docs"
     ],
-    "files_to_include": [
-        "Cargo.toml"
-    ],
+    "files_to_include": [],
     "commands_to_run": [
         "cargo init --name ${project_name}",
         "echo done"
