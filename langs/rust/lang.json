@@ -11,7 +11,8 @@
         "cargo": {
             "path": "rust/Cargo.toml",
             "build": "cargo build",
-            "run": "cargo run"
+            "run": "cargo run",
+            "create_file":false
         }
     },
     "compiler_urls": [
