@@ -43,7 +43,7 @@
         "Cargo.toml"
     ],
     "commands_to_run": [
-        "cargo init",
+        "cargo init --name ${project_name}",
         "echo done"
     ],
     "main_file_path": "src/main.rs",
