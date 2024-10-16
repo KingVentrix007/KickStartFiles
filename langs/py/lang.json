@@ -1,7 +1,6 @@
 {
     "name": "python",
     "version": 3,
-    "special_build": true,
     "system_support": [
         "linux",
         "windows"
@@ -9,8 +8,12 @@
     "lib_support": false,
     "version_template_path": "NULL",
     "build_file_path": {
-        "makefile": "none",
-        "bash": "none"
+        "python":
+        {
+            "path":"py/setup.py",
+            "build":"python3 setup.py build",
+            "run":"python3 src/${project_name}/main.py"
+        }
     },
     "compiler_urls": [
         "https://www.python.org/downloads/"
