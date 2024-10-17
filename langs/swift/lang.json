@@ -47,7 +47,7 @@
         "swift package init --name ${project_name}",
         "echo done"
     ],
-    "main_file_path": "Sources/{project_name}/main.swift",
+    "main_file_path": "Sources/${project_name}/main.swift",
     "main_file_template": "swift/main.swift",
     "comment": "//",
     "compiler_cmd": "swift --version",
