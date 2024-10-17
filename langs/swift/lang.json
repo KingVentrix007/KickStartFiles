@@ -1,6 +1,6 @@
 {
     "name": "swift",
-    "version": 3,
+    "version": 4,
     "system_support": [
         "macOS",
         "linux"
