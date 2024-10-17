@@ -2,6 +2,7 @@
     "name": "c",
     "version":3,
     "system_support": [
+        "windows",
         "linux"
     ],
     "lib_support": false,

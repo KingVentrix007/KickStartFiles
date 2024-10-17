@@ -1,0 +1,55 @@
+{
+    "name": "swift",
+    "version": 3,
+    "system_support": [
+        "macOS",
+        "linux"
+    ],
+    "lib_support": false,
+    "version_template_path": "NULL",
+    "build_file_path": {
+        "swift-package": {
+            "path": "swift/Package.swift",
+            "build": "swift build",
+            "run": "swift run",
+            "create_file":false
+        }
+    },
+    "compiler_urls": [
+        "https://swift.org/getting-started/"
+    ],
+    "description": "Swift is a powerful and intuitive programming language for iOS, macOS, watchOS, and tvOS.",
+    "template_author": "KingVentrix007",
+    "git_repo": "https://github.com/KingVentrix007/CodeStarterFiles/tree/main/langs/swift",
+    "lang_license": {
+        "type": "MIT",
+        "url": "https://github.com/KingVentrix007/CodeStarterFiles/blob/main/LICENCE/MIT"
+    },
+    "default_main_file": "main.swift",
+    "extensions": [
+        ".swift"
+    ],
+    "dependencies": [],
+    "instructions": "Use `swift build` to compile and `swift run` to execute the project.",
+    "template_version": "1.0.0",
+    "update_url": "N/A",
+    "git_ignore_path": "swift/.gitignore",
+    "folders_to_create": [
+        "Sources",
+        "Tests",
+        "docs",
+        "Sources/${project_name}"
+    ],
+    "files_to_include": [
+        "Package.swift"
+    ],
+    "commands_to_run": [
+        "swift package init --name ${project_name}",
+        "echo done"
+    ],
+    "main_file_path": "Sources/{project_name}/main.swift",
+    "main_file_template": "swift/main.swift",
+    "comment": "//",
+    "compiler_cmd": "swift --version",
+    "package_install": "swift package install"
+}
