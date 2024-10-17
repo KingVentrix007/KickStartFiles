@@ -1,7 +1,7 @@
 {
     "langs":
     {
-        "goo":
+        "go":
         {
             "path":"/go/lang.json"
         },
