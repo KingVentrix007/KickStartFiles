@@ -24,6 +24,10 @@
         "kotlin":
         {
             "path":"/kotlin/lang.json"    
+        },
+        "swift":
+        {
+            "path":"/swift/lang.json"    
         }
     }
 }
