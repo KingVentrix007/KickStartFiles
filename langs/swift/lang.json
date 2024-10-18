@@ -44,7 +44,7 @@
         "Package.swift"
     ],
     "commands_to_run": [
-        "swift package init --name ${project_name}",
+        "swift package init --name ${project_name} --type executable",
         "echo done"
     ],
     "main_file_path": "Sources/${project_name}/main.swift",
