@@ -1,7 +1,7 @@
 {
     "name": "path-normalize",
     "git_url": "https://github.com/stephenmathieson/path-normalize.c.git",
-    "raw_path":"https://raw.githubusercontent.com/stephenmathieson/path-normalize.c/master",
+    "raw_path":"https://raw.githubusercontent.com/stephenmathieson/path-normalize.c/master/",
     "src_paths": [
         "src/path-normalize.c"
     ],
