@@ -19,6 +19,18 @@
                 "trim"
             ],
             "path": "c/trim/trim.json"
+        },
+    "path-normalize": {
+            "lang":"c",
+            "version": "1.0.0",
+            "description": "Normalize a path",
+            "author": "KingVentrix007",
+           "keywords": [
+    "path",
+    "directory",
+    "normalize"
+  ],
+            "path": "c/path-normalize/path-normalize.json"
         }
     
     
