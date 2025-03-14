@@ -35,7 +35,7 @@
         "cmake":
         {
             "path":"c/CMakeLists.txt",
-            "build":"echo Cmake is complex, please read a tutorial, or as ChatGPT",
+            "build":"cd build#cmake ..#make",
             "run":"echo Cmake is complex, please read a tutorial, or as ChatGPT"
         }
     },
