@@ -42,5 +42,31 @@
             "run_cmd": "python3 {input}",
             "requires": ["python3"]
         }
+    },
+    "c": {
+        "windows": {
+            "description": "Standard C build for Windows using gcc",
+            "default_output": "a.exe",
+            "multi_file": true,
+            "input_glob": "*.c",
+            "compile_only": true,
+            "single_command": true,
+            "user_flags": "",
+            "compile_cmd": "gcc {user_flags} -o {output} {input}",
+            "run_cmd": "{output}",
+            "requires": ["gcc"]
+        },
+        "linux": {
+            "description": "Standard C build for Linux using gcc",
+            "default_output": "a.out",
+            "multi_file": true,
+            "input_glob": "*.c",
+            "compile_only": true,
+            "single_command": true,
+            "user_flags": "",
+            "compile_cmd": "gcc {user_flags} -o {output} {input}",
+            "run_cmd": "./{output}",
+            "requires": ["gcc"]
+        }
     }
 }
