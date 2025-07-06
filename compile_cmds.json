@@ -29,6 +29,7 @@
         "windows": {
             "description": "Run Python script using system Python on Windows",
             "default_output": "none",
+            "multi_file":false,
             "single_command": true,
             "compile_cmd": null,
             "run_cmd": "python {input}",
