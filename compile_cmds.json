@@ -25,7 +25,7 @@
             "requires": ["g++"]
         }
     },
-    "python": {
+    "py": {
         "windows": {
             "description": "Run Python script using system Python on Windows",
             "default_output": null,
