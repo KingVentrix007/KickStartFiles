@@ -36,6 +36,7 @@
         },
         "linux": {
             "description": "Run Python script using system Python on Linux",
+            "multi_file":false,
             "default_output": "none",
             "single_command": true,
             "compile_cmd": null,
