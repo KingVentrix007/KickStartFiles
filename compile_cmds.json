@@ -36,7 +36,7 @@
         },
         "linux": {
             "description": "Run Python script using system Python on Linux",
-            "default_output": null,
+            "default_output": "none",
             "single_command": true,
             "compile_cmd": null,
             "run_cmd": "python3 {input}",
